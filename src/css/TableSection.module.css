@@ -1,0 +1,56 @@
+
+.TableSection{
+    background-color: #EDE6E6;
+    margin: 0;
+    padding: 0;
+}
+.TableText{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.TableDev {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto; /* Centers the table horizontally */
+    width: 80%; /* Adjusts the width of the table */
+  }
+  
+  /* General table styling */
+  table {
+    width: 100%; /* Ensures the table takes up the full width of its container */
+    border-collapse: collapse; /* Ensures borders are not double */
+    margin: 20px 0; /* Adds some spacing around the table */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center; /* Center aligns text in table cells */
+    border: 1px solid #ddd; /* Adds a light gray border around cells */
+  }
+  
+  th {
+    background-color: #E4C20A; /* Background color for header */
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #ffffff; /* White background for table data cells */
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #ffffff; /* Background color for even rows */
+    color: black; /* Adjust text color for better contrast */
+    font-weight: 500;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: #848144;
+    color: #ffffff; /* White background for odd rows */
+    font-weight: 500;
+  }
+  
+ 
+  
+  
+  

@@ -1,0 +1,49 @@
+.hero_image {
+    /* Make the hero section take up the full viewport height */
+    height: 100vh;
+    background-image: url('./image.png'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero_text {
+    /* Center the text within the hero image */
+    text-align: center;
+    color: white;
+    padding: 20px;
+    
+  }
+  
+  .hero_text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #E4C20A;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .hero_text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero_text button {
+    background-color: #000000;
+    color: #E4C20A;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero_text button:hover {
+    background-color: #E4C20A;
+    color:#000000;
+  }
+  
